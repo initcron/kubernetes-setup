@@ -1,4 +1,3 @@
-cat > server.js
 var http = require('http');
 var handleRequest = function(request, response) {
   response.writeHead(200);
